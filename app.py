@@ -1,4 +1,4 @@
-from flask import Flask, request,
+from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
 
 from utils import fetch_reply
@@ -24,4 +24,4 @@ def sms_reply():
     return str(resp)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
