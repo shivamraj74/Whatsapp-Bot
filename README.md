@@ -2,7 +2,6 @@
 # WhatsApp Bot
 
 - Setting up Twilio Sandbox for WhatsApp
-
 - Twilio Sandbox for WhatsApp lets you test your app in a developer environment.
 - Setting up Webhook for Incoming Messages
 - Deploying Flask App on Heroku
